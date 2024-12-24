@@ -1,0 +1,65 @@
+/* Common CSS */
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Employe Section CSS  */
+.emp_section .emp_info p {
+  font-size: 11px;
+}
+.emp_section .emp_card .emp_img {
+  overflow: hidden;
+}
+.emp_section .emp_card .emp_img img {
+  transition: 0.4s;
+}
+.emp_section .emp_card .emp_img img:hover {
+  transform: scale(1.1);
+}
+
+/* Header CSS  */
+header .my_dropdown {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  transition: 0.4s;
+}
+header .my_dropdown li {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  transition: 0.4s;
+}
+header .my_dropdown_item:hover .my_dropdown {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+}
+header .my_dropdown_item:hover .my_dropdown li {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Banner CSS  */
+
+.banner_section .carousel-indicators [data-bs-target] {
+  height: 10px !important;
+  width: 10px !important;
+  /* border-radius: 50%; */
+  margin-right: 10px;
+}
+
+/* Contact Section CSS  */
+.contact_section .contact_form .form-control {
+  border: 2px solid #000000;
+  border-radius: 0;
+}
+
+.contact_section .contact_form .form-control:focus {
+  box-shadow: none;
+}
+
+
